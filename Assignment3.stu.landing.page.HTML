@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a7a81d4508.js" crossorigin="anonymous"></script>
+    <title>Stunning Landing Page</title>
+    <style>
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .nav {
+            width: 100%;
+            background-color: #fff;
+            overflow: auto;
+        }
+
+        .ul {
+            padding: 0;
+            margin: 0 0 0 150px;
+            list-style: none;
+        }
+
+        .li {
+            float: left;
+
+
+        }
+
+        .ho {
+            font-weight: 700;
+
+
+
+        }
+
+        .ho:hover {
+            text-decoration: #FE5D20 underline;
+            color: #8071D0;
+
+
+        }
+
+        .left {
+            margin-left: 270px;
+            color: black;
+            text-decoration: underline blue;
+        }
+
+        .hov {
+            margin-left: 40px;
+            color: blue;
+            width: 150px;
+            border-radius: 20px;
+            border: 1px solid pink;
+            background-color: pink;
+            cursor: pointer;
+            font-weight: 700;
+            text-align: center;
+
+        }
+
+        .right {
+            margin-left: 180px;
+        }
+
+        .right:hover {
+            background: #fff;
+            color: red;
+        }
+
+        .logo img {
+            position: absolute;
+
+        }
+
+        .imgg {
+            margin-left: 30px;
+            width: 120px;
+            height: 50px;
+        }
+
+        nav a {
+            width: 100px;
+            display: block;
+            padding: 20px 15px;
+            text-decoration: none;
+            font-family: Arial;
+            color: #f3ebeb;
+            text-decoration: center;
+        }
+
+
+        .stu {
+            margin-top: 30px;
+            font-size: 65px;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+
+
+        }
+
+        .work {
+            margin-top: auto;
+            font-size: 68px;
+            margin-left: 60px;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+
+        .squre {
+            color:black;
+            width: 0.8px;
+            height: 0.1px;
+            background-color:black;
+            font-size: 9px;
+
+
+
+        }
+
+        .para {
+
+            margin-top: 20px;
+            margin-left: 60px;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: rgb(148, 141, 141);
+        }
+
+        .newAccount {
+            line-height: 70px;
+            color: #ffffff;
+            width: 300px;
+            border-radius: 30px;
+            background-color: #5243C0;
+            cursor: pointer;
+            font-weight: 500;
+            text-align: center;
+            margin-left: 60px;
+            margin-top: 30px;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 14px 18px;
+            margin-bottom: 50px;
+        }
+
+        .newAccount:hover {
+            background-color: red;
+            color: black;
+        }
+
+        #up {
+            margin-left: 10px;
+            font-weight: 300;
+        }
+
+        .up {
+            margin-left: 20px;
+            font-weight: lighter;
+            color: darkgray;
+        }
+
+        .down {
+            margin-left: 30px;
+            font-weight: lighter;
+            color: black;
+            border-radius: 12px;
+            cursor: pointer;
+            border: 1px solid darkgray;
+            padding: 12px;
+        
+
+        }
+
+        .pink {
+
+
+            padding: 4px;
+            margin-bottom: 3px;
+
+
+
+        }
+
+        .pink1 {
+            margin-left: 30px;
+            margin-right: 25px;
+        }
+
+        .tick-gray1 {
+            margin-left: 70px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            color:rgb(218, 211, 211);
+            border-radius:20px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color: rgb(218, 211, 211);
+        
+
+
+        }
+        .tick-gray1:hover{
+            background-color: blue;
+            color: #1a0d7e;
+        }
+
+        .orange {
+
+
+            padding: 4px;
+            margin-top: 3px;
+        }
+
+        .orange1 {
+            margin-left: 30px;
+            margin-right: 25px;
+        }
+
+        .tick-blue {
+            margin-left: 50px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            color:rgb(218, 211, 211);
+            border-radius:20px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color: rgb(218, 211, 211);
+        
+        }
+        .tick-blue:hover{
+            background-color:blue;
+            color: #5243C0;
+        }
+
+        .blue {
+
+
+            padding: 4px;
+            margin-top: 3px;
+        }
+
+        .tick-gray2 {
+            margin-left: 70px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            color: rgb(218, 211, 211);
+            border-radius:20px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color: rgb(218, 211, 211);
+        
+        }
+        .tick-gray2:hover{
+            background-color:blue;
+            color: #5243C0;
+        }
+
+        .blue1 {
+            margin-left: 40px;
+            margin-right: 25px;
+        }
+
+        .red {
+            margin-top: 3px;
+            margin-left: 80px;
+            padding: 4px;
+        }
+
+        .tick-gray3 {
+            margin-left: 70px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            color: rgb(218, 211, 211);
+            border-radius:20px;
+            font-size: 30px;
+            cursor: pointer;
+            background-color: rgb(218, 211, 211);
+        
+        }
+        .tick-gray3:hover{
+            background-color: blue;
+            color: #5243C0;
+        }
+
+        .red1 {
+            margin-left: 50px;
+            margin-right: 25px;
+        }
+
+        .stunning {
+            display: inline-block;
+        }
+
+        .card {
+
+            background-color: #fff;
+            margin-left: 40px;
+            display: inline-block;
+            height: 600px;
+            width: 500px;
+            text-align: center;
+
+
+        }
+
+        .adj {
+          
+            margin-left:60px ;
+            background-color: rgb(228, 220, 220);
+            box-shadow: 10px 13px 86px rgb(182, 179, 179);
+        
+
+
+        }
+        .adj:hover{
+            background-color:rgb(197, 189, 189);
+        }
+        .button1{
+            margin-left: 5px;
+            width:25px;
+            height: 5px;
+            border-radius:2px;
+            cursor: pointer;
+            font-weight:900;
+            text-align: center;
+        }
+        .p1{
+          background-color: #FE5D20;
+          color: #FE5D20;
+          margin-left: 25px;
+        }
+        .p1:hover{
+            background-color: #5243C0;
+            color: #5243C0;
+        }
+        .p2{
+           background-color: orange;
+           color: orange;
+           margin-left: 26px;
+        }
+        .p2:hover{
+            background-color: #5243C0;
+            color: #5243C0;
+        }
+        .p3{
+             background-color: green;
+             color:green ;
+             margin-left: 27px;
+        }
+        .p3:hover{
+            background-color: #5243C0;
+            color: #5243C0;
+        }
+        .p4{
+          background-color: yellow;
+          color:yellow;
+          margin-left: 27px;
+        }
+        .p4:hover{
+            background-color: #5243C0;
+            color: #5243C0;
+        }
+        .div1{
+           background-color:white;
+        border-radius: 10px;
+        border: 1px solid  gainsboro;
+        
+        }
+        .div2{
+          background-color: #fff;
+          border-radius: 10px;
+        border: 1px solid  gainsboro;
+        }
+        .div3{
+          background-color: white;
+          border-radius: 10px;
+        border: 1px solid  gainsboro;
+        }
+        .div4{
+           background-color: white;
+           border-radius: 10px;
+        border: 1px solid  gainsboro;
+        }
+        .a{
+            font-size: 20px;
+            color: black;
+        }
+        .b{
+            font-size:20px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo img"><a href="#"><img class="imgg"
+                    src="D:\Assignment3.LandingPage\stunning-logo (1) - Copy.png" height="50px" width="100px"></a></div>
+        <nav class="nav a">
+            <ul class="ul">
+                <li class="li"><a class="ho left" href="#">Home</a></li>
+                <li class="li"><a class="ho" href="#">About</a></li>
+                <li class="li"><a class="ho" href="#">Blog</a></li>
+                <li class="li"><a class="ho" href="#">Jobs</a></li>
+                <li class="li"><a class="hov right" href="https://www.edyoda.com">Your Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="card">
+                <a href="#" class="stu">Stunning</a><br>
+                <a href="#" class="work">Workplace<a href="#" class="squre">1</a></a>
+                <article class="para">With Stunning, remote can organize projects,<br>manage shifting priorites, and get
+                    work done.
+                </article>
+                <a class="newAccount" href="https://www.edyoda.com">New Account</a><span class="up"><i
+                        class="fa-solid fa-arrow-up"></i></span><span class="down"><i
+                        class="fa-solid fa-arrow-down"></i></span><br>
+
+
+
+                <div class="pink adj div1"><a class="tick-gray1 "><i class="fa-thin fa-circle"></i></a>
+                        <a class="a">Dmm design</a><img class="pink1"
+                        src="D:\Assignment3.LandingPage\user-pink.png " alt="Pink" height="25px" width="30px"><a class="b">20
+                            Dec</a>
+                    <a href="#" class="button1 p1">aa</a> </div>
+
+
+
+                <div class="orange adj div2"><img class="tick-blue" src=" D:\Assignment3.LandingPage\tick-blue.png" height="25px" width="25px"><a class="a">Blurr animation</a><img class="orange1"
+                        src="D:\Assignment3.LandingPage\user-orange.png " alt="Pink" height="25px" width="30px"><a class="b">22
+                            Dec</a>
+                    <a href="#" class="button1 p2">aa</a></div>
+
+
+
+                <div class="blue adj div3"><a class="tick-gray2"><i class="fa-thin fa-circle"></i></a>
+                    <a class="a">llustration</a><img class="blue1"
+                        src="D:\Assignment3.LandingPage\user-blue.png " alt="Pink" height="25px" width="30px"><a class="b">26
+                            Dec</a><a href="#" class="button1 p3">aa</a></div>
+
+
+
+                <div class="red adj div4"><a class="tick-gray1 "><i class="fa-thin fa-circle"></i></a>
+                        <a class="a">Refunds</a><img class="red1"
+                        src="D:\Assignment3.LandingPage\user-red.png " alt="Pink" height="25px" width="30px"><a class="b">28
+                    Dec</a></a><a href="#" class="button1 p4 ">aa</a></div>
+
+            </div>
+            <div class="card ">
+                <img class="Stunning" src="D:\Assignment3.LandingPage\landing-section-image.png" alt="landpange"
+                    height="550" width="620">
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
